@@ -1,0 +1,68 @@
+[2026-04-13T06:21:38Z] === ENRICH ITERATION 1 START | repo=zopefoundation/Zope sha=358841b2 ===
+[2026-04-13T06:21:38Z] [iter=1] PHASE START: enrich repo=zopefoundation/Zope sha=358841b2 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/358841b2-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/358841b27f3e2a06c0632db52c001c78d5f6a554.nq.gz
+[2026-04-13T06:21:38Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-13T06:22:37Z] [iter=1] AST store loaded triples=6312814 load_secs=56 mem_mb=1034 MB
+[2026-04-13T06:22:37Z] [iter=1] Step 2: Finding LSP targets mem_mb=1034 MB
+[2026-04-13T06:22:56Z] [iter=1] LSP targets found call_sites=44664 imports=6341 extends=1182 implements=0 secs=19
+[2026-04-13T06:23:14Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1034 MB
+[2026-04-13T06:23:52Z] [iter=1] Position index built positions=442274 nodes_with_types=569433 secs=38 mem_mb=1440 MB
+[2026-04-13T06:23:52Z] [iter=1] Step 3: Starting LSP resolution mem_mb=1440 MB already_completed_types=[] already_completed_files=0
+[2026-04-13T06:23:52Z] [iter=1] Resolving target type target_type=call_site count=44664
+[2026-04-13T06:23:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.2 files_done=0 resolved=0 errors=0 current=lib/python/Testing/ZopeTestCase/testPortalTestCase.py
+[2026-04-13T06:34:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.2 files_done=1 resolved=23 errors=259 current=lib/python/Products/PluginIndexes/PathIndex/PathIndex.py
+[2026-04-13T06:36:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.6 files_done=2 resolved=44 errors=292 current=lib/python/Shared/DC/ZRDB/DA.py
+[2026-04-13T06:40:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.6 files_done=3 resolved=108 errors=386 current=lib/python/TAL/tests/test_xmlparser.py
+[2026-04-13T06:43:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.7 files_done=4 resolved=115 errors=460 current=lib/python/AccessControl/Role.py
+[2026-04-13T06:50:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.6 files_done=5 resolved=171 errors=624 current=lib/python/AccessControl/tests/test_safeiter.py
+[2026-04-13T06:51:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=30.0 files_done=7 resolved=181 errors=656 current=lib/python/Products/OFSP/Version.py
+[2026-04-13T06:53:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=32.2 files_done=8 resolved=188 errors=709 current=lib/python/Products/PluginIndexes/TextIndex/TextIndex.py
+[2026-04-13T06:58:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=36.8 files_done=9 resolved=248 errors=817 current=lib/python/App/RefreshFuncs.py
+[2026-04-13T07:01:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=39.8 files_done=10 resolved=270 errors=889 current=lib/python/Products/Transience/tests/testTransientObjectContainer.py
+[2026-04-13T07:07:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=45.6 files_done=11 resolved=337 errors=1026 current=lib/python/webdav/client.py
+[2026-04-13T07:12:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=51.0 files_done=12 resolved=391 errors=1153 current=lib/python/Products/ZGadflyDA/gadfly/relalg.py
+[2026-04-13T07:16:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=54.8 files_done=13 resolved=429 errors=1242 current=lib/python/HelpSys/HelpSys.py
+[2026-04-13T07:19:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=58.3 files_done=14 resolved=448 errors=1324 current=lib/python/Products/Five/viewlet/metaconfigure.py
+[2026-04-13T07:20:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=59.1 files_done=15 resolved=459 errors=1345 current=lib/python/AccessControl/ImplPython.py
+[2026-04-13T07:25:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=63.4 files_done=16 resolved=514 errors=1444 current=lib/python/Testing/ZopeTestCase/zopedoctest/functional.py
+[2026-04-13T07:28:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=66.5 files_done=17 resolved=534 errors=1519 current=lib/python/Products/Sessions/BrowserIdManager.py
+[2026-04-13T07:33:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=71.4 files_done=18 resolved=572 errors=1634 current=lib/python/nt_svcutils/service.py
+[2026-04-13T07:34:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=73.2 files_done=19 resolved=579 errors=1675 current=lib/python/AccessControl/tests/testUserFolder.py
+[2026-04-13T07:40:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=79.0 files_done=20 resolved=590 errors=1812 current=lib/python/Products/Sessions/tests/testBrowserIdManager.py
+[2026-04-13T07:46:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=85.2 files_done=21 resolved=594 errors=1960 current=lib/python/Products/PythonScripts/tests/testPythonScript.py
+[2026-04-13T07:52:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=90.6 files_done=22 resolved=608 errors=2089 current=lib/python/StructuredText/ClassicDocumentClass.py
+[2026-04-13T07:58:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=96.4 files_done=23 resolved=653 errors=2224 current=lib/python/Products/SiteAccess/VirtualHostMonster.py
+[2026-04-13T08:00:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=99.2 files_done=24 resolved=673 errors=2291 current=lib/python/ZServer/HTTPServer.py
+[2026-04-13T08:03:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=102.2 files_done=25 resolved=705 errors=2362 current=lib/python/Products/ZGadflyDA/gadfly/gadfly.py
+[2026-04-13T08:06:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=104.7 files_done=26 resolved=729 errors=2421 current=lib/python/DateTime/DateTime.py
+[2026-04-13T08:14:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=112.4 files_done=27 resolved=852 errors=2604 current=lib/python/Shared/DC/ZRDB/tests/test_sqlgroup.py
+[2026-04-13T08:17:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=115.4 files_done=28 resolved=855 errors=2676 current=lib/python/Products/ZCatalog/tests/testCatalog.py
+[2026-04-13T08:33:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=131.6 files_done=29 resolved=937 errors=3059 current=lib/python/Products/ZCTextIndex/tests/testIndex.py
+[2026-04-13T08:41:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=139.7 files_done=30 resolved=997 errors=3253 current=lib/python/AccessControl/tests/testZopeSecurityPolicy.py
+[2026-04-13T08:47:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=146.3 files_done=31 resolved=1008 errors=3409 current=lib/python/Products/Sessions/stresstests/stresstestMultiThread.py
+[2026-04-13T08:49:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=148.3 files_done=32 resolved=1046 errors=3457 current=lib/python/Interface/pprint.py
+[2026-04-13T08:51:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=149.6 files_done=33 resolved=1053 errors=3485 current=lib/python/DocumentTemplate/tests/testDTML.py
+[2026-04-13T08:57:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=156.2 files_done=34 resolved=1061 errors=3644 current=lib/python/webdav/NullResource.py
+[2026-04-13T09:04:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=162.4 files_done=35 resolved=1070 errors=3791 current=lib/python/OFS/tests/testProperties.py
+[2026-04-13T09:05:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=164.2 files_done=36 resolved=1104 errors=3833 current=lib/python/App/ImageFile.py
+[2026-04-13T09:06:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=164.9 files_done=37 resolved=1115 errors=3850 current=lib/python/webdav/tests/testPUT_factory.py
+[2026-04-13T09:08:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=166.4 files_done=38 resolved=1122 errors=3885 current=lib/python/Products/ZReST/ZReST.py
+[2026-04-13T09:10:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=169.1 files_done=39 resolved=1140 errors=3949 current=lib/python/Interface/Mapping.py
+[2026-04-13T09:12:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=170.9 files_done=41 resolved=1150 errors=3992 current=lib/python/Products/Five/fivedirectives.py
+[2026-04-13T09:20:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=179.1 files_done=43 resolved=1228 errors=4186 current=lib/python/ZServer/FTPServer.py
+[2026-04-13T09:27:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=186.0 files_done=44 resolved=1279 errors=4349 current=lib/python/Products/ZCatalog/regressiontests/regressionCatalog.py
+[2026-04-13T09:34:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=192.9 files_done=45 resolved=1334 errors=4512 current=lib/python/ZClasses/Basic.py
+[2026-04-13T09:36:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=194.7 files_done=46 resolved=1357 errors=4556 current=lib/python/ZPublisher/tests/test_Converters.py
+[2026-04-13T09:37:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=196.0 files_done=47 resolved=1361 errors=4586 current=lib/python/Products/ZGadflyDA/gadfly/kjParseBuild.py
+[2026-04-13T09:47:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=205.7 files_done=48 resolved=1465 errors=4814 current=lib/python/Interface/Common/tests/BaseTestMapping.py
+[2026-04-13T09:49:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=207.8 files_done=49 resolved=1473 errors=4865 current=lib/python/TreeDisplay/TreeTag.py
+[2026-04-13T09:56:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=215.0 files_done=50 resolved=1552 errors=5033 current=lib/python/OFS/tests/testOrderSupport.py
+[2026-04-13T09:57:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=216.3 files_done=51 resolved=1556 errors=5062 current=lib/python/Testing/ZopeTestCase/testPythonScript.py
+[2026-04-13T10:00:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=219.1 files_done=52 resolved=1560 errors=5128 current=lib/python/Products/Five/metaclass.py
+[2026-04-13T10:01:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=219.8 files_done=53 resolved=1574 errors=5143 current=lib/python/webdav/tests/test_davcmds.py
+[2026-04-13T10:02:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=220.4 files_done=54 resolved=1579 errors=5157 current=lib/python/Products/ZCTextIndex/OkapiIndex.py
+[2026-04-13T10:03:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=221.4 files_done=55 resolved=1587 errors=5182 current=lib/python/Products/ZGadflyDA/gadfly/gfdb0.py
+[2026-04-13T10:13:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=231.6 files_done=56 resolved=1687 errors=5421 current=lib/python/OFS/interfaces.py
+[2026-04-13T10:21:44Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=240.1 files_completed=57 new_files_this_iter=57 mem_mb=1469 MB
+[2026-04-13T10:21:44Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/358841b27f3e2a06c0632db52c001c78d5f6a554.nq.gz triples=64983
+[2026-04-13T10:21:45Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-04-13T10:21:45Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=14406 elapsed_min=240.1 files_completed=57
