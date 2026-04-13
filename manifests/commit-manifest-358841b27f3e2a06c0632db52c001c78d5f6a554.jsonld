@@ -23,13 +23,13 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "branch",
       "repolex:graphFilePath": "branch/branch.nq.gz",
-      "repolex:graphFileSize": 1357
+      "repolex:graphFileSize": 1371
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "tag",
       "repolex:graphFilePath": "tag/tag.nq.gz",
-      "repolex:graphFileSize": 64338
+      "repolex:graphFileSize": 64218
     },
     {
       "@type": "repolex:GraphFile",
@@ -45,7 +45,7 @@
     }
   ],
   "repolex:parseStatus": "parsed",
-  "repolex:parsedAt": "2026-04-13T04:56:43.801437+00:00",
+  "repolex:parsedAt": "2026-04-13T05:21:39.601968+00:00",
   "repolex:parserVersion": "0.1.0",
   "git:tagName": "philikon-aq-checkpoint"
 }
